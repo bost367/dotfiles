@@ -23,6 +23,9 @@ setopt HIST_IGNORE_ALL_DUPS
 
 export EDITOR="nvim"
 export VISUAL="$EDITOR"
+# Display manpage in neovim
+# https://neovim.io/doc/user/filetype.html#ft-man-plugin
+export MANPAGER='nvim +Man!'
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
