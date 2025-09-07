@@ -1,0 +1,8 @@
+[mgr]
+ratio = [0, 1, 0]
+show_hidden = true
+
+[opener]
+edit = [
+  { run = '~/workbench/dotfiles/zellij/project/functions_1.sh e "$@"', desc = "Edit in nvim" },
+]

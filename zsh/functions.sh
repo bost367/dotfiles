@@ -8,3 +8,7 @@ yy() {
   fi
   rm -f -- "$tmp"
 }
+
+zp() {
+  zellij --layout ~/.config/zellij/project/project_layoutl.kdl
+}

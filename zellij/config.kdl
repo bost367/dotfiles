@@ -1,6 +1,8 @@
-default_layout "compact"
+// default_layout "compact"
 pane_frames false
+theme "jetbrains-dark"
 show_startup_tips false
+default_mode "normal"
 
 ui {
     pane_frames {
@@ -8,4 +10,3 @@ ui {
     }
 }
 
-theme "jetbrains-dark"

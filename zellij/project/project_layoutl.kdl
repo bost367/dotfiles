@@ -1,0 +1,19 @@
+layout {
+    pane size=1 borderless=true {
+        plugin location="zellij:compact-bar"
+    }
+    pane split_direction="vertical" {
+        pane {
+            command "~/.config/zellij/project/functions.sh"
+            args "yazi_project"
+            size "30%"
+            close_on_exit true
+        }
+        pane {
+            command "nvim"
+            focus true
+            size "70%"
+            close_on_exit true
+        }
+    }
+}
