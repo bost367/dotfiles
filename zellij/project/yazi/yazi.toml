@@ -1,0 +1,8 @@
+[mgr]
+ratio = [0, 1, 2]
+show_hidden = true
+
+[opener]
+edit = [
+  { run = '$PROJECT_EDITOR "$@"', block = false, for = "unix" },
+]
