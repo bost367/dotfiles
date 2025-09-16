@@ -12,8 +12,8 @@ done
 
 # Open paths in the editor
 if [[ -n "${escaped_paths[*]}" ]]; then
-  zellij action write 27         # send <Escape> key to enter NORMAL mode
-  zellij action move-focus right # focus on editor
+  zellij action write 27                                # send <Escape> key to enter NORMAL mode
+  zellij action move-focus right                        # focus on editor
   zellij action write-chars ":args ${escaped_paths[*]}" # open files
-  zellij action write 13 # send <Enter> key
+  zellij action write 13                                # send <Enter> key
 fi
