@@ -2,7 +2,8 @@ layout {
     tab {
         pane split_direction="vertical" {
             pane {
-                command "filepicker.sh"
+                command "zellij-project.sh"
+                args "filepicker"
                 size "30%"
                 focus true
             }
